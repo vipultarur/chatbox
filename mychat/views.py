@@ -10,6 +10,7 @@ from django.contrib.auth.models import User,auth
 from .froms import ChatMessageForm
 from django.db.models import Q
 
+
 def register(request):
     if request.method == 'POST':
         username = request.POST['username']
